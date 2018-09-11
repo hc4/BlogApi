@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BlogApi.Configuration;
 using BlogApi.Interfaces;
 using BlogApi.Models;
 using Microsoft.Extensions.Options;

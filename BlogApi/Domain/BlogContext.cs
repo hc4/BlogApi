@@ -1,4 +1,5 @@
-﻿using BlogApi.Models;
+﻿using BlogApi.Configuration;
+using BlogApi.Models;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 

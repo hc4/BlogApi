@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using BlogApi.Configuration;
 using BlogApi.Domain;
 using BlogApi.Interfaces;
 using BlogApi.Models;

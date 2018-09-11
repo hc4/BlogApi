@@ -2,7 +2,7 @@
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 
-namespace BlogApi.Domain
+namespace BlogApi.Configuration
 {
     public static class AuthOptions
     {

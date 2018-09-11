@@ -1,4 +1,5 @@
-﻿using BlogApi.Domain;
+﻿using BlogApi.Configuration;
+using BlogApi.Domain;
 using BlogApi.Interfaces;
 using BlogApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
