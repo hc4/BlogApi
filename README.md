@@ -9,21 +9,26 @@
  - Setup Mongo connection in MongoConfig section of appsettings.json
  
  ## Usage
+ ### Startup
+ ```
+ dotnet BlogApi.dll
+ ```
+ 
  ### Authorize
  API uses JWT Bearer Authorization. So you need to get token
  ```
- GET http://localhost:2450/api/system/token?user=[userId]
+ GET http://localhost:5000/api/system/token?user=[userId]
  ```
  
  ### Init
  Now you can init mongo collection and fill it with some data
  ```
- GET http://localhost:2450/api/system/init
+ GET http://localhost:5000/api/system/init
  ```
  
  ### Create new post
  ```
- POST http://localhost:2450/api/posts
+ POST http://localhost:5000/api/posts
  {
    tags: ["tag1", "tag2"],
    body: "some body text"
@@ -33,7 +38,7 @@
  ### Search for posts
  All search options are optional and combined with AND operator. This operation doesn't require authorization.
  ```
- POST http://localhost:2450/api/posts/find
+ POST http://localhost:5000/api/posts/find
  {
    user: "user",
    tag: "tag",
