@@ -6,7 +6,7 @@
  - MongoDB 4
  
  ## Configuration
- - Setup Mongo connection in MongoConfig of appsettings.json
+ - Setup Mongo connection in MongoConfig section of appsettings.json
  
  ## Usage
  ### Authorize
